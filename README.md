@@ -9,13 +9,16 @@ Project Description:
 First, ensure that you have Python and OpenCV installed on your system. You can install OpenCV using pip:
 bash
 Copy code
-pip install opencv-python
+#pip install opencv-python
+
 2. Collect Training Data:
 
 Gather a dataset of images with the faces of individuals whose attendance you want to track. Label these images with the person's name.
+
 3. Train a Haar Cascade Classifier:
 
 You'll need to train a custom Haar Cascade classifier for face detection. This can be a time-consuming process, and you can use a tool like the OpenCV TrainCascade or LBP Cascade Trainer GUI to assist you.
+
 4. Create a Python Program:
 
 Write a Python program that uses OpenCV for real-time face detection. You'll need to:
